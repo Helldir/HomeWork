@@ -8,12 +8,10 @@ CONFIG -= app_bundle
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        FunnyArray.cpp \
         main.cpp \
-        src/InversArray.cpp \
-        src/InversArrayMany.cpp \
-        src/ReleaseArray.cpp \
-        src/ShiftArray.cpp
+        src/SearchString.cpp \
+        src/TextConcat.cpp \
+        src/TextCreate.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
